@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "user-presence-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/userPresence/UserPresenceWebPart.js",
+          "manifest": "./src/webparts/userPresence/UserPresenceWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UserPresenceWebPartStrings": "lib/webparts/userPresence/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
