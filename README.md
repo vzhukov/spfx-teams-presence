@@ -20,4 +20,4 @@ and add the web part to the page.
 
 ### Post
 
-Original blog post: [SPFx Web Part. Getting presence information of users from Microsoft Teams]https://blog.vitalyzhukov.ru/en/spfx-teams-presence-status-microsoft-graph
+Original blog post: https://blog.vitalyzhukov.ru/en/spfx-teams-presence-status-microsoft-graph
