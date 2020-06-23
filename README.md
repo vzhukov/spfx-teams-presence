@@ -1,26 +1,23 @@
-## spfx-teams-presence
+## SPFx Web Part. Getting presence information of users from Microsoft Teams
 
-This is where you include your WebPart documentation.
+Microsoft Teams was released in 2017, and it took about three years to get an API that makes it possible to get user online presence status. We had to use a workaround. But as for today, we have the [REST API method to get user presence information](https://docs.microsoft.com/en-us/graph/api/presence-get?view=graph-rest-beta&tabs=http){target=_blank}.
 
 ### Building the code
 
 ```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
+git clone https://github.com/vzhukov/spfx-teams-presence.git
+npm install
+gulp serve --nobrowser
 ```
 
-This package produces the following:
+### Preview the web part
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+Open your SharePoint Online workbench at:
 
-### Build options
+https://[tenant].sharepoint.com/_layouts/15/workbench.aspx
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+and add the web part to the page.
+
+### Post
+
+Original blog post: [SPFx Web Part. Getting presence information of users from Microsoft Teams]https://blog.vitalyzhukov.ru/en/spfx-teams-presence-status-microsoft-graph
